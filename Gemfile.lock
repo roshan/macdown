@@ -54,14 +54,14 @@ GEM
     colored2 (3.1.2)
     concurrent-ruby (1.1.7)
     escape (0.0.4)
-    ethon (0.12.0)
-      ffi (>= 1.3.0)
+    ethon (0.14.0)
+      ffi (>= 1.15.0)
     faraday (1.1.0)
       multipart-post (>= 1.2, < 3)
       ruby2_keywords
     faraday_middleware (1.0.0)
       faraday (~> 1.0)
-    ffi (1.14.2)
+    ffi (1.15.3)
     fourflusher (2.3.1)
     fuzzy_match (2.0.4)
     gh (0.18.0)
@@ -94,6 +94,7 @@ GEM
     pusher-client (0.6.2)
       json
       websocket (~> 1.0)
+    rexml (3.2.5)
     ruby-macho (1.4.0)
     ruby2_keywords (0.0.2)
     thread_safe (0.3.6)
@@ -122,6 +123,8 @@ PLATFORMS
 
 DEPENDENCIES
   cocoapods (~> 1.10)
+  ethon (>= 0.13.0)
+  rexml (~> 3.2)
   travis (~> 1.10)
 
 BUNDLED WITH
